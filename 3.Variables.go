@@ -1,5 +1,5 @@
 package main
-import "fmt"
+import "fmt" //mengimport packages fmt
 
 func main(){
     var a = "initial"
@@ -17,7 +17,7 @@ func main(){
     f := "Short"
     fmt.Println(f)
 }
-
+// syntax ini := adalah singkatan untuk mendeklarasikan dan menginisialisasi variabel, mis. untuk var f string = "short" dalam kasus ini.
 // $ go run variables.go
 // initial
 // 1 2
