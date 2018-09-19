@@ -26,4 +26,8 @@ func main(){
 // short
 
 
+<<<<<<< Updated upstream
 Language Version:  1.10.2
+=======
+Language Version: 1.10.2
+>>>>>>> Stashed changes
