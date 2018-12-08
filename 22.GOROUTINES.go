@@ -12,8 +12,8 @@ func main() {
 	go f("goroutine")
 	go func(msg string) {
 		fmt.Println(msg)
-	}("going")
-	fmt.Scanln()
+	}("going") // adad sisip message pada goroutine
+	fmt.Scanln() //tahan sebelum masuk done untuk scanln
 	fmt.Println("done")
 }
 
